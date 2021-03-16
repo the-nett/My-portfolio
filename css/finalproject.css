@@ -1,0 +1,76 @@
+header {
+	background-color: #111111;
+	display: inline-block;
+	width: 100%;
+	height: 64px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #FFF1E6;
+}
+h1, header div {
+	font-family: cursive;
+	display: inline-block;
+	margin: 10px 1px;
+	font-size: 43px;
+}
+main, footer {
+	background-color:#0D0D0D; 
+}
+main ul, p {
+	color:#FFF1E6 ;
+}
+h2, .others p {
+	color: #DB0902;
+}
+li {
+	padding: 0px 0px 29px;
+}
+.foods, .drinks {
+	font-family: cursive;
+	display: inline-block;
+	padding: 10px 0px 0px 15px;
+	width: 50%;
+	height: 667px;
+	box-sizing: border-box;
+}
+.foods h2, .drinks h2{
+	padding: 10px 0px 15px;
+	text-align: center;
+}
+.foods__list, .drinks__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+	display: inline-block;
+	background-color: #FFF1E6;
+	color: red; 
+	width: 100%;
+	height: 633px;
+}
+footer, footer h2 {
+	display: block;
+	margin: 10px 0px 20px;
+	text-align: center;
+
+
+}
+footer .others p {
+	margin: 0px 0px 15px;
+	font-family: cursive;
+}
+h3, .others h2 {
+	margin: 20px 0px;
+	font-family: cursive;
+}
+.me {
+	display: inline-block;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	background-color: #111111;
+	color: #FFF1E6;
+	border-bottom: 10px;
+	border-color: #111111;
+}
